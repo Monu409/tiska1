@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:soundEffectsEnabled="false"
+    android:background="@drawable/train_special"
+    android:id="@+id/train_back"
+    tools:ignore="MissingDefaultResource">
+    
+    <RelativeLayout
+        android:id="@+id/video_layout_train"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp" >
+
+        <VideoView
+            android:id="@+id/show_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true" />
+        <MediaController
+            android:id="@+id/mediaController_vdo_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/show_video"
+            android:layout_alignLeft="@+id/show_video"
+            android:layout_alignRight="@+id/show_video"
+            android:visibility="invisible"
+            >
+
+            <RelativeLayout
+                android:id="@+id/trans_layout_train"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#000000" >
+                
+                <Button
+                android:id="@+id/play_train"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBaseline="@+id/fullScreen_train"
+                android:layout_alignBottom="@+id/fullScreen_train"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/pause_small"
+                 />
+
+                <Button
+                android:id="@+id/fullScreen_train"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/maximize_small" />
+
+            </RelativeLayout>
+            
+        </MediaController>
+        
+
+        <Button
+            android:id="@+id/video_play_img_train"
+            android:layout_width="360dp"
+            android:layout_height="160dp"
+            android:layout_alignLeft="@+id/show_video"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/show_video"
+            android:background="@drawable/video_img"
+             />
+
+        <ProgressBar
+            android:id="@+id/progressBar_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mediaController_vdo_train"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp"
+            android:visibility="invisible" />
+
+            </RelativeLayout>
+    
+
+</LinearLayout>

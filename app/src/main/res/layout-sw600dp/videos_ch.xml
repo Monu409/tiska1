@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:soundEffectsEnabled="false">
+
+        <ImageView
+            android:id="@+id/top_im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heading_text"
+            android:maxHeight="80dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="-70dp"/>
+
+        <com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
+            android:id="@+id/belts_list_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/botm_view"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_below="@+id/top_im">
+
+    </com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager>
+
+
+        <LinearLayout
+            android:id="@+id/botm_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/tb_tiska_bottom" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/bottom_text1" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/over_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99818181"
+        android:visibility="gone"/>
+
+</RelativeLayout>

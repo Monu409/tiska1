@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_provider_authority">com.example.tiskakarate</string>
+    <string name="app_name">Tiska Karate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="facebook_app_id">1447259095571959</string>
+    <string name="title_activity_facebook_share">Facebook</string>
+    <string name="facebook_default_text">Please enter your text here</string>
+    <string name="title_post_text">Write Post</string>
+    <string name="post_button_text">Post</string>
+    <string name="title_facebook_login">Facebook Login</string>
+
+    <!-- LIVE APP ID -->
+    <string name="app_id">1447259095571959</string>
+    <string name="facebook_post_content_desc">Image to share</string>
+    <string name="app_package_name">com.example.tiskakarate</string>
+	<string name="successfully_posted_post">successfully</string>
+	<string name="success">success</string>
+	<string name="error">error</string>
+	<string name="photo_post">post</string>
+	<string name="navigation_drawer_open">navigation drawer open</string>
+	<string name="navigation_drawer_close">navigation drawer close</string>
+</resources>

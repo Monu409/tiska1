@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:soundEffectsEnabled="false">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/header_lay_out" />
+
+        <com.app.tiskakarate.CustomRecyclerView
+            android:id="@+id/belts_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/botm_view"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="10dp">
+
+        </com.app.tiskakarate.CustomRecyclerView>
+
+        <LinearLayout
+            android:id="@+id/botm_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bottom_text" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/over_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99818181" />
+
+</RelativeLayout>

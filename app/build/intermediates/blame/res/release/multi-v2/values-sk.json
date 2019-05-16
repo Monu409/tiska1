@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\part1\\helper\\Tiska\\TiskaKarate\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sk\\values-sk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2f11387f1553f0a91a196d2f7f23c780\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "36",
+                        "startColumns": "4",
+                        "startOffsets": "3423",
+                        "endColumns": "100",
+                        "endOffsets": "3519"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\562bc65cceaa3d502dbbc7ee67b03ec9\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,312,423,509,617,735,816,897,981,1086,1195,1294,1400,1511,1620,1786,1884",
+                        "endColumns": "106,99,110,85,107,117,80,80,83,104,108,98,105,110,108,165,97,87",
+                        "endOffsets": "207,307,418,504,612,730,811,892,976,1081,1190,1289,1395,1506,1615,1781,1879,1967"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,312,423,509,617,735,816,897,981,1086,1195,1294,1400,1511,1620,1786,3335",
+                        "endColumns": "106,99,110,85,107,117,80,80,83,104,108,98,105,110,108,165,97,87",
+                        "endOffsets": "207,307,418,504,612,730,811,892,976,1081,1190,1289,1395,1506,1615,1781,1879,3418"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.7.0.aar\\3a15a4d2bf052811b30df6862083eeb9\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "161,284,431,533,606,683,747,819,897,993,1071,1149,1234,1334,1400,1467",
+                        "endColumns": "122,146,101,72,76,63,71,77,95,77,77,84,99,65,66,144",
+                        "endOffsets": "279,426,528,601,678,742,814,892,988,1066,1144,1229,1329,1395,1462,1607"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1884,2007,2154,2256,2329,2406,2470,2542,2620,2716,2794,2872,2957,3057,3123,3190",
+                        "endColumns": "122,146,101,72,76,63,71,77,95,77,77,84,99,65,66,144",
+                        "endOffsets": "2002,2149,2251,2324,2401,2465,2537,2615,2711,2789,2867,2952,3052,3118,3185,3330"
+                    }
+                }
+            ]
+        }
+    ]
+}

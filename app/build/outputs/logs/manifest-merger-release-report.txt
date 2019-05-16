@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+MERGED from [com.sromku:simple-fb:4.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\simple-fb-4.1.1.aar\00830e16fab86fb6092ada2ad1c1ae45\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\5816d43bbc116abdc7f491902337f83f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\android-networking-1.0.2.aar\ac613ce0e3e38454597cd0ecf8e0de29\AndroidManifest.xml:18:1-27:12
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\lib-v1.1.2.aar\d5ae0fec9ea87db966cdb08296c95401\AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.7.0.aar\3a15a4d2bf052811b30df6862083eeb9\AndroidManifest.xml:21:1-30:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\47b13037eff45bb43e0f6c1ff7878014\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\562bc65cceaa3d502dbbc7ee67b03ec9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\055df5439e090147f1a656f36e9013a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\f7618c84a0aad74448a23d91c93d8058\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9d4e86ffc06a716187b899fe494f9415\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bf781ca0e70bde7df7f0950089afb471\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\640aa7ce35e67ec2696dd6290aef2275\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\68ee9fc77e2cb9f0b7fd02232f2c20d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\73c590d2b0cc1f2252a1718c030181ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\927f1b05d10890c3d08bedc83a639fbf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2f11387f1553f0a91a196d2f7f23c780\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4e376464ed9a8c73138408249abe9fec\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\16de028bbe0f03d0d44dde06390b1100\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a3265b16fb75d1a20ec9300418e94a8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e2c66e6000337e5908f6cea23ccd72f2\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:1-89:12
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:6:5-13:11
+	android:largeScreens
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:9:9-36
+	android:normalScreens
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:7:9-37
+	android:xlargeScreens
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:10:9-37
+	android:resizeable
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:12:9-34
+	android:anyDensity
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:11:9-34
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:18:22-78
+application
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:20:5-87:19
+MERGED from [com.sromku:simple-fb:4.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\simple-fb-4.1.1.aar\00830e16fab86fb6092ada2ad1c1ae45\AndroidManifest.xml:12:5-20
+MERGED from [com.sromku:simple-fb:4.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\simple-fb-4.1.1.aar\00830e16fab86fb6092ada2ad1c1ae45\AndroidManifest.xml:12:5-20
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\lib-v1.1.2.aar\d5ae0fec9ea87db966cdb08296c95401\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\lib-v1.1.2.aar\d5ae0fec9ea87db966cdb08296c95401\AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.7.0.aar\3a15a4d2bf052811b30df6862083eeb9\AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.7.0.aar\3a15a4d2bf052811b30df6862083eeb9\AndroidManifest.xml:28:5-20
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:24:9-41
+	tools:ignore
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:26:9-48
+	android:largeHeap
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:27:9-33
+	android:icon
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:23:9-49
+	android:allowBackup
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:25:9-40
+	android:usesCleartextTraffic
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:21:9-61
+uses-library#org.apache.http.legacy
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:30:9-88
+	android:required
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:30:61-85
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:30:23-60
+activity#com.app.tiskakarate.Tiska_Splash
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:32:9-42:20
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:34:13-45
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:35:13-71
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:33:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:36:11-40:29
+action#android.intent.action.MAIN
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.app.tiskakarate.Main2
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:45:13-45
+	android:configChanges
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:46:13-83
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:47:13-50
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:44:13-53
+activity#com.app.tiskakarate.PlayerActivity
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:50:9-56:20
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:52:13-45
+	android:configChanges
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:53:13-83
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:54:13-50
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:51:13-62
+activity#com.app.tiskakarate.FacebookShareActivity
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:57:9-68:16
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:59:9-62
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:60:9-46
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:58:9-46
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*+data:mimeType:text/plain
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:62:9-67:25
+action#android.intent.action.SEND
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:63:13-64
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:63:21-62
+category#android.intent.category.DEFAULT
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:64:13-71
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:64:23-69
+data
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:65:13-50
+	android:mimeType
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:65:19-48
+activity#com.facebook.LoginActivity
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:69:9-73:20
+	android:label
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:71:13-45
+	android:theme
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:72:13-72
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:70:13-54
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:74:9-76:55
+	android:value
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:76:13-52
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:75:13-58
+provider#android.support.v4.content.FileProvider
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:78:9-86:20
+	android:grantUriPermissions
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:82:13-47
+	android:authorities
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:80:13-63
+	android:exported
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:79:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:83:13-85:61
+	android:resource
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:85:17-59
+	android:name
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml:84:17-67
+uses-sdk
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+MERGED from [com.sromku:simple-fb:4.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\simple-fb-4.1.1.aar\00830e16fab86fb6092ada2ad1c1ae45\AndroidManifest.xml:8:5-10:41
+MERGED from [com.sromku:simple-fb:4.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\simple-fb-4.1.1.aar\00830e16fab86fb6092ada2ad1c1ae45\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\5816d43bbc116abdc7f491902337f83f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\5816d43bbc116abdc7f491902337f83f\AndroidManifest.xml:20:5-44
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\android-networking-1.0.2.aar\ac613ce0e3e38454597cd0ecf8e0de29\AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\android-networking-1.0.2.aar\ac613ce0e3e38454597cd0ecf8e0de29\AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\lib-v1.1.2.aar\d5ae0fec9ea87db966cdb08296c95401\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\lib-v1.1.2.aar\d5ae0fec9ea87db966cdb08296c95401\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.7.0.aar\3a15a4d2bf052811b30df6862083eeb9\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.7.0.aar\3a15a4d2bf052811b30df6862083eeb9\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\47b13037eff45bb43e0f6c1ff7878014\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\47b13037eff45bb43e0f6c1ff7878014\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\562bc65cceaa3d502dbbc7ee67b03ec9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\562bc65cceaa3d502dbbc7ee67b03ec9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\055df5439e090147f1a656f36e9013a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\055df5439e090147f1a656f36e9013a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\f7618c84a0aad74448a23d91c93d8058\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\f7618c84a0aad74448a23d91c93d8058\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9d4e86ffc06a716187b899fe494f9415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9d4e86ffc06a716187b899fe494f9415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bf781ca0e70bde7df7f0950089afb471\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bf781ca0e70bde7df7f0950089afb471\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\640aa7ce35e67ec2696dd6290aef2275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\640aa7ce35e67ec2696dd6290aef2275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\68ee9fc77e2cb9f0b7fd02232f2c20d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\68ee9fc77e2cb9f0b7fd02232f2c20d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\73c590d2b0cc1f2252a1718c030181ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\73c590d2b0cc1f2252a1718c030181ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\927f1b05d10890c3d08bedc83a639fbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\927f1b05d10890c3d08bedc83a639fbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2f11387f1553f0a91a196d2f7f23c780\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2f11387f1553f0a91a196d2f7f23c780\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4e376464ed9a8c73138408249abe9fec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4e376464ed9a8c73138408249abe9fec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\16de028bbe0f03d0d44dde06390b1100\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\16de028bbe0f03d0d44dde06390b1100\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a3265b16fb75d1a20ec9300418e94a8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a3265b16fb75d1a20ec9300418e94a8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e2c66e6000337e5908f6cea23ccd72f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e2c66e6000337e5908f6cea23ccd72f2\AndroidManifest.xml:20:5-44
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		ADDED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml
+		INJECTED from E:\part1\helper\Tiska\TiskaKarate\app\src\main\AndroidManifest.xml

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/down_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:soundEffectsEnabled="false">
+        <!--android:background="@drawable/bg_down"-->
+        <!--android:soundEffectsEnabled="false" >-->
+
+        <ImageView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heading_text"
+            android:maxHeight="80dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:adjustViewBounds="true"/>
+        <LinearLayout
+            android:id="@+id/botm_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bottom_text" />
+
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_text"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/scroll_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_blu_belt_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/blue_belt_p10n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_10_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_10_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_blu_belt_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/red_belt_p9n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_9_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_9_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/orange_belt_p8n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_8_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_8_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/yellow_belt_p7n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_7_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_7_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/green_belt_p6n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_6_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_6_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/purple_belt_p5n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_5_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_5_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/purple_white_p4n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_4_lay1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_4_link1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_4_lay2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_4_link2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/brown_belt_p3n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_3_lay1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_3_link1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_3_lay2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_3_link2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/brown_white_p2n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_2_lay1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_2_link1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_2_lay2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_2_link2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_2_lay3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_2_link3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/brown_red_p1n" />
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_1_lay1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_1_link1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_1_lay2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_1_link2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/blu_belt_1_lay3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="@dimen/margin_30dp"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/margin_5dp"
+                            android:src="@drawable/pdf_ic" />
+
+                        <TextView
+                            android:id="@+id/blu_belt_1_link3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textColor="#da0000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/brown_black_belt_p_shadon_n" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/brown_shadon_lay7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/brown_shadon_link7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/shadon_pn" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/shadon_p_n11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp">
+
+                                <ImageView
+                                    android:layout_width="30dp"
+                                    android:layout_height="@dimen/margin_30dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="@dimen/margin_5dp"
+                                    android:src="@drawable/pdf_ic" />
+
+                                <TextView
+                                    android:id="@+id/shadon_p_n_link11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textColor="#da0000" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/over_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99818181"
+        android:visibility="gone"/>
+</RelativeLayout>

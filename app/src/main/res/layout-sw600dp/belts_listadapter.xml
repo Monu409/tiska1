@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/main_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_rowWeight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:layout_rowWeight="1" />
+    </GridLayout>
+</LinearLayout>

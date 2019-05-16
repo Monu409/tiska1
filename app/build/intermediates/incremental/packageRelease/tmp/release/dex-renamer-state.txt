@@ -1,0 +1,4 @@
+#Tue May 14 12:56:50 IST 2019
+base.0=E\:\\part1\\helper\\Tiska\\TiskaKarate\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
